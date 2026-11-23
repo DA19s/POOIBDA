@@ -1,0 +1,106 @@
+﻿===== P1CreateClasses =====
+BankCustomer 1: Tim Shao 0019615606
+BankCustomer 2: Lisa Shao 0019615607
+BankCustomer 3: Sandy Zoeng 0019615608
+Account 1: Account # 19959873, type Checking, balance 0, rate 0, customer ID 0019615606
+Account 2: Account # 19959874, type Checking, balance 1500, rate 0, customer ID 0019615607
+Account 3: Account # 19959875, type Checking, balance 2500, rate 0, customer ID 0019615608
+
+===== P2UpdateClasses =====
+Creating BankCustomer objects...
+BankCustomer 1: Tim Shao 0019477180
+BankCustomer 2: Lisa Shao 0019477181
+BankCustomer 3: Sandy Zoeng 0019477182
+
+Creating BankAccount objects for customers...
+Account 1: Account # 18579684, type Checking, balance 0, rate 0, customer ID 0019477180
+Account 2: Account # 18579685, type Checking, balance 1500, rate 0, customer ID 0019477181
+Account 3: Account # 18579686, type Checking, balance 2500, rate 0, customer ID 0019477182
+
+Updating BankCustomer 1's name...
+Updated BankCustomer 1: Thomas Margand 0019477180
+
+Demonstrating BankAccount methods...
+Depositing 500 into Account 1...
+Account 1 after deposit: Balance = 500
+Withdrawing 200 from Account 2...
+Account 2 after withdrawal: Balance = 1300, Withdrawal successful: True
+Transferring 300 from Account 3 to Account 1...
+Account 3 after transfer: Balance = 2200, Transfer successful: True
+Account 1 after receiving transfer: Balance = 800
+Applying interest to Account 1...
+Account 1 after applying interest: Balance = 800
+
+Demonstrating extension methods...
+Hello, Thomas Margand!
+Is customer1 ID valid? True
+Can account2 withdraw 2000? False
+Is account3 overdrawn? False
+
+Displaying customer and account information...
+Customer ID: 0019477180, Name: Thomas Margand
+Account Number: 18579684, Type: Checking, Balance: 800, Interest Rate: 0, Customer ID: 0019477180
+
+===== P3ImplementClasses =====
+Creating BankCustomer objects...
+BankCustomer 1: Tim Shao 0019145402
+BankCustomer 2: Lisa Shao 0019145403
+BankCustomer 3: Sandy Zoeng 0019145404
+
+Creating BankAccount objects for customers...
+Account 1: Account # 10389920, type Checking, balance 1000, rate 0, customer ID 0019145402
+Account 2: Account # 10389921, type Checking, balance 1500, rate 0, customer ID 0019145403
+Account 3: Account # 10389922, type Checking, balance 2500, rate 0, customer ID 0019145404
+
+Updating BankCustomer 1's name...
+Updated BankCustomer 1: Thomas Margand 0019145402
+
+Demonstrating BankAccount methods...
+Depositing 500 F CFA into Account 1...
+Account 1 after deposit: Balance = 1 500 F CFA
+Withdrawing 200 F CFA from Account 2...
+Account 2 after withdrawal: Balance = 1 300 F CFA, Withdrawal successful: True
+Transferring 300 F CFA from Account 3 to Account 1...
+Account 3 after transfer: Balance = 2 200 F CFA, Transfer successful: True
+Account 1 after receiving transfer: Balance = 1 800 F CFA
+
+Demonstrating utility methods in AccountCalculations...
+Compound interest on account1 balance of 1 800 F CFA at 0,00% for 1 year: 0 F CFA
+Is account number 10389920 valid? True
+Transaction fee for a 800 F CFA wire transfer at a 1,00% rate and a max fee of 10 F CFA is: 8 F CFA
+Overdraft fee for an account that's 500 F CFA overdrawn, using a penalty rate of 5,00% and a max fee of 10 F CFA is: 10 F CFA
+The foreign currency received after exchanging 100 F CFA at an exchange rate of 1,20 is: 120 F CFA
+
+Applying interest to Account 1...
+Account 1 after applying interest: Balance = 1 800 F CFA, Interest Rate = 0,00 %, Time Period = 0,08 years
+Issue cashier's check from account 2...
+Account 2 after requesting cashier's check: Received cashier's check: True, Balance = 795 F CFA, Transaction Amount = 500 F CFA, Transaction Fee Rate = 1,00 %, Max Transaction Fee = 10 F CFA
+Applying refund to Account 3...
+Account 3 after applying refund: Balance = 2 250 F CFA, Refund Amount = 50 F CFA
+
+Demonstrating extension methods...
+Hello, Thomas Margand!
+Is customer1 ID valid? True
+Can account2 withdraw 2000? False
+Is account3 overdrawn? False
+
+Displaying customer and account information...
+Customer ID: 0019145402, Name: Thomas Margand
+Account Number: 10389920, Type: Checking, Balance: 1800, Interest Rate: 0, Customer ID: 0019145402
+
+Demonstrating named and optional parameters...
+Account Number: 10389923, Type: Checking, Balance: 200, Interest Rate: 0, Customer ID: 0019145402
+Account Number: 10389924, Type: Checking, Balance: 1500, Interest Rate: 0, Customer ID: 0019145402
+Account Number: 10389925, Type: Checking, Balance: 200, Interest Rate: 0, Customer ID: 0019145403
+Account Number: 10389926, Type: Checking, Balance: 5000, Interest Rate: 0, Customer ID: 0019145403
+
+Demonstrating object initializers and copy constructors...
+BankCustomer 4: Mikaela Lee 0019145405
+BankCustomer 5 (copy of customer4): Mikaela Lee 0019145406
+Account 8: Account # 10389927, type Savings, balance 200, rate 0, customer ID 0019145405
+Account 9 (copy of account4): Account # 10389928, type Checking, balance 200, rate 0, customer ID 0019145402
+
+===== P4ImplementInterfaces =====
+Student Name: Eric Solomon, Age: 20
+Teacher Name: Kayla Lewis, Age: 35
+
